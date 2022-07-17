@@ -1,3 +1,7 @@
-# Related Blog Posts
+Повторяющиеся платежи.
 
-* [Running Scheduled Jobs in Spring Boot](https://reflectoring.io/spring-scheduler/)
+Решение состоит из двух модулей. 
+1) payments. Принимает платежи, отдает чеки.
+2) recurring-payments. Создает повторяющиеся платежи, отправляет их в payments.
+
+Папку recurring-payments положить отдельно.
